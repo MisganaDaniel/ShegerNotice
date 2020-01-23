@@ -1,0 +1,105 @@
+
+body{
+	padding:0;
+	margin:0;
+	 background-image:url("pic/body.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 background-position:center;
+	 font-family: Multicolore;}
+
+
+header a { color:white;
+           text-decoration:none;             
+           font-size:24px;}
+header a:link, header a:visited{ color: white; }
+
+header p{ text-align:right;
+          margin:-110px 10px 0px 0px; }
+
+header p a{ font-size:20px; }
+header p a:link, header a:visited{ color: white; }
+header p a:hover{color:black;}
+
+header a h1{ margin-top:-10px;
+             text-indent:5px;
+             font-family:Segoe Print;
+             font-size:50px; }
+
+
+table{
+	background: #000;
+	text-align: left;
+	color: white;
+	padding:20px;
+	font-size:14pt;
+	opacity:0.9;
+	margin:30px 0 0 440px;
+}
+
+table,input[type="submit"]
+{
+	border-radius: 15px;
+}
+
+table tr{
+	line-height: .6em;
+}
+
+
+table tr td img{ 
+	             width: 100px;
+	             height: 100px;
+	             margin:-55px 0 0 2px;
+	             border-radius: 50%; }
+
+
+table tr td input{
+	margin-bottom: 12px;
+
+}
+
+
+table tr td input, textarea{
+	width:108%;
+	padding:9px;
+}
+table tr td input[type="name"], input[type="email"], textarea[type="message"]
+{
+	border: none;
+	padding:25px;
+	outline: none;
+	height: 70px;
+	font-size: 16px;
+}
+
+table tr td input[type="submit"]
+{
+	border: none;
+	outline: none;
+	text-align: center;
+	background: white;
+	color: black;
+	font-size: 18px;
+}
+
+table tr td input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: lime;
+}
+
+table tr td a{
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+
+}
+
+table tr td a:hover
+{
+	color: lime;
+
+}
+
+

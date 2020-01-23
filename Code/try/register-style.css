@@ -1,0 +1,86 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image:url("pic/body.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	font-family: Multicolore;
+
+}
+
+table{
+    width: 400px;
+	border-radius:10px; 
+	background: #000;
+	padding:20px;
+	text-align: center;
+	color: white;
+	font-size:14pt;
+	opacity:0.9;
+	margin:80px 0 0 40px;
+}
+
+table tr td img{ 
+	             width: 100px;
+	             height: 100px;
+	             margin:-79px 0 0 2px;
+	             border-radius: 50%; }
+
+table tr td{
+	text-align:center;
+}
+
+
+
+table tr td input{
+	width:100%;
+	text-align: left;
+	margin-bottom: 12px;
+
+}
+
+table tr td input[type="text"], input[type="password"], input[type="date"], table tr td select 
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background:none;
+	outline: none;
+	color:white;
+	height: 20px;
+	font-size: 14px;
+}
+
+table tr td input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 35px;
+	text-align: center;
+	background: white;
+	color: black;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+table tr td input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: lime;
+	color: #000;
+}
+
+table tr td a{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 30px;
+	color: white;
+
+}
+
+table tr td a:hover
+{
+	color: lime;
+
+}
